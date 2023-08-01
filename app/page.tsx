@@ -8,7 +8,7 @@ export default function Home() {
     return <primitive object={gltf.scene} scale={1} />
   }
   return (
-    <main>
+    <>
       1{/*<Canvas camera={{ position: [4, 0.3, 3.9] }}>*/}
       {/*  <ambientLight intensity={0.6} />*/}
       {/*  <directionalLight castShadow position={[0, -10, 0]} intensity={1.5} />*/}
@@ -20,6 +20,6 @@ export default function Home() {
       {/*  <Model />*/}
       {/*  <OrbitControls rotateSpeed={0.3} />*/}
       {/*</Canvas>*/}
-    </main>
+    </>
   )
 }

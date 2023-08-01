@@ -1,6 +1,6 @@
 'use client'
 import { Jost } from 'next/font/google'
-import GlobalStyle from '@/libs/styles/global'
+import '@/libs/styles/global.css'
 
 const jostFont = Jost({
   subsets: ['latin'],
@@ -8,9 +8,8 @@ const jostFont = Jost({
 })
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <main className={jostFont.className}>
-      <GlobalStyle />
-      {children}
-    </main>
+    <>
+      <main className={jostFont.className}>{children}</main>
+    </>
   )
 }
