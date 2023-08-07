@@ -1,0 +1,16 @@
+.layout {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background: #E36F2D;
+    padding-top: 135px;
+}
+
+
+.body {
+    min-width: 970px;
+    border-radius: 20px;
+    background: white;
+    padding: 50px 160px;
+}
