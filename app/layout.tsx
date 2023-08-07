@@ -8,8 +8,8 @@ const jostFont = Jost({
 })
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <>
-      <main className={jostFont.className}>{children}</main>
-    </>
+    <html>
+      <body className={jostFont.className}>{children}</body>
+    </html>
   )
 }
